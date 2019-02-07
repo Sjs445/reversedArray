@@ -22,7 +22,8 @@ reverseArray(arr, size);
 
 void reverseArray(int arr[], int const size)
 {
-  for(int i=size; i>0; i--)
+  cout<<"\nReversed: \n";
+  for(int i=size-1; i>=0; i--)
   {
     cout<<arr[i]<<"\n";
   }
